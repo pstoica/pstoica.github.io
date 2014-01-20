@@ -1,0 +1,50 @@
+@import 'bourbon/bourbon';
+@import 'variables';
+@import 'normalize';
+@import 'type';
+@import 'neat/neat';
+
+@mixin selection {
+    ::-moz-selection { @content; }
+    ::selection { @content; }
+}
+
+@include selection {
+    color: white;
+    background: rgba($blue, 0.8);
+}
+
+/* fluid media */
+figure {
+  position: relative;
+}
+
+figure img, figure object, figure embed, figure video {
+  max-width: 100%;
+  display: block;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* layout */
+
+.container {
+  @include outer-container;
+}
+
+.content {
+  @include span-columns(6);
+}
+
+.nav-section {
+  @include span-columns(3);
+
+  ul {
+    margin: 0 0 em(28);
+    padding: 0;
+    list-style-type: none;
+  }
+}

@@ -13,6 +13,17 @@ $base-line-height: 24px;
     background: rgba($blue, 0.8);
 }
 
+/* links */
+a {
+  @include transition(color 0.2s ease-in);
+  color: shade($blue, 5%);
+  text-decoration: none;
+}
+
+a:hover, .site-title a:hover {
+  color: shade($blue, 40%);
+}
+
 /* type */
 
 body, h1, h2, h3, h4 {
@@ -26,10 +37,13 @@ body {
   color: $gray;
 }
 
-h1, .site-title {
+h1 {
   @include adjust-font-size-to(62px);
   margin: 0;
   font-style: italic;
+}
+
+.site-title a {
   color: $blue;
 }
 
@@ -69,14 +83,4 @@ h4 {
 p {
   @include adjust-font-size-to(20px, 1.4);
   margin: 0 0 rhythm(1, 20px);
-}
-
-a {
-  @include transition(color 0.2s ease-in);
-  color: shade($blue, 5%);
-  text-decoration: none;
-
-  &:hover {
-    color: shade($blue, 40%);
-  }
 }

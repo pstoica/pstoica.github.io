@@ -36,8 +36,20 @@ body {
   @include outer-container;
 }
 
+.site-header {
+  @include row;
+
+  @include media($breakpoint-medium) {
+    @include span-columns(11);
+  }
+
+  @include media($breakpoint-large) {
+    @include span-columns(7);
+  }
+}
+
 .content {
-  @include span-columns(12);
+  @include row;
 
   @include media($breakpoint-medium) {
     @include span-columns(8);

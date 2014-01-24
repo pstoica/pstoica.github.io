@@ -1,32 +1,42 @@
 {
   "native-fm": {
-    "title": "native.fm"
+    "title": "native.fm",
+    "description": "discover + share local music with music lovers from around the world"
   },
   "wrektranet": {
-    "title": "WREKtranet"
+    "title": "WREKtranet",
+    "description": "Radio station intranet 2.0"
   },
   "singleops": {
-    "title": "SingleOps"
+    "title": "SingleOps",
+    "description": "Operations automation for on-site services"
   },
   "wrek": {
-    "title": "WREK.org"
+    "title": "WREK.org",
+    "description": "Radio station redesign"
   },
   "kate-godwin": {
-    "title": "Kate Godwin"
+    "title": "Kate Godwin",
+    "description": "Personal portfolio + blog"
   },
   "drew-pak": {
-    "title": "Drew Pak"
+    "title": "Drew Pak",
+    "description": "Personal portfolio"
   },
   "yahoo-sports": {
-    "title": "Yahoo! Sports"
+    "title": "Yahoo! Sports",
+    "description": "London 2012 Olympics"
   },
   "plantr": {
-    "title": "Plantr"
+    "title": "Plantr",
+    "description": "Community garden monitoring on-the-go"
   },
   "abundant-world": {
-    "title": "Abundant World"
+    "title": "Abundant World",
+    "description": "Connecting nonprofits in need"
   },
   "ampersand": {
-    "title": "Ampersand"
+    "title": "Ampersand",
+    "description": "Local art community"
   }
 }

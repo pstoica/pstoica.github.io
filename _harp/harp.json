@@ -1,7 +1,6 @@
 {
   "globals": {
-    "title": "Patrick Stoica",
-    "tagline"  : "Computer Science at Georgia Tech, bound for New York",
+    "name": "Patrick Stoica",
     "uri": "http://example.com",
     "links": {
       "friends": [

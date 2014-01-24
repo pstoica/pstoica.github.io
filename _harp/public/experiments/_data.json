@@ -1,8 +1,10 @@
 {
   "web-audio-synth": {
-    "title": "Web Audio Synth"
+    "title": "Web Audio Synth",
+    "description": "Synthesis exploration in HTML5"
   },
   "park-find": {
-    "title": "Park Find"
+    "title": "Park Find",
+    "description": "Park discovery app (Govathon 2013)"
   }
 }

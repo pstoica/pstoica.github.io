@@ -1,0 +1,23 @@
+.nav-section
+  h4.nav-header Portfolio
+  ul
+    - each link in links.portfolio
+      li
+        a(href=link.url)= link.title
+
+  h4.nav-header Friends
+  ul
+    - each link in links.friends
+      li
+        a(href=link.url)= link.title
+.nav-section
+  h4.nav-header Experiments
+  ul
+    - each link in links.experiments
+      li
+        a(href=link.url)= link.title
+  h4.nav-header Social
+  ul
+    - each link in links.social
+      li
+        a(href=link.url)= link.title

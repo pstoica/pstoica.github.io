@@ -15,12 +15,12 @@ html(lang='en')
   body
     .container
       header
-        h1.site-title Patrick Stoica
+        h1.site-title= title
         h2.page-title
           | Web developer, ambient musician,
           br
           | master of the cheap pun.
-        h4.page-subtitle Computer Science at Georgia Tech, bound for New York
+        h4.page-subtitle= tagline
       .content
         != yield
       nav.nav

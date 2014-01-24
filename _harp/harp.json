@@ -41,6 +41,10 @@
         {
           "title": "Last.FM",
           "url": "http://last.fm/bigolblob"
+        },
+        {
+          "title": "Email",
+          "url": "mailto:pstoica@gatech.edu"
         }
       ]
     }

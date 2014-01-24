@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-a:hover, .site-title a:hover {
+a:hover, .site-title a:hover, .footer-nav a:hover {
   color: shade($blue, 40%);
 }
 
@@ -43,7 +43,7 @@ h1 {
   font-style: italic;
 }
 
-.site-title a {
+.site-title a, .footer-nav a {
   color: $blue;
 }
 
@@ -83,4 +83,9 @@ h4 {
 p {
   @include adjust-font-size-to(20px, 1.4);
   margin: 0 0 rhythm(1, 20px);
+}
+
+.footer-nav {
+  @include adjust-font-size-to(30px, 2);
+  margin: 0;
 }

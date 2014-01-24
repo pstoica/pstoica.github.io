@@ -20,11 +20,11 @@ html(lang='en')
           | Web developer, ambient musician,
           br
           | master of the cheap pun.
-        h3.page-subtitle Computer Science at Georgia Tech, bound for New York
+        h4.page-subtitle Computer Science at Georgia Tech, bound for New York
       .content
         != yield
       nav.nav
         != partial("_nav")
     script(type='text/javascript', src='//use.typekit.net/iul4pro.js')
-    script(type='text/javascript')
+    script(type='text/javascript').
         try{Typekit.load();}catch(e){}

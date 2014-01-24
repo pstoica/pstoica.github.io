@@ -1,95 +1,58 @@
-@mixin small {
-  font-size: em(13);
-  line-height: em(18);
-}
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
 
-@mixin normal {
-  font-size: em($font-size);
-  line-height: em($line);
-}
-
-@mixin body-text {
-  font-size: em(20);
-  line-height: em($line);
-}
-
-@mixin large {
-  font-size: em(34);
-  line-height: 1.3;
-}
-
-@mixin huge {
-  font-size: em(42);
-  line-height: 1;
-}
-
-@mixin massive {
-  font-size: em(62);
-  line-height: 1;
-}
-
-@mixin gigantic {
-  font-size: em(110);
-  line-height: em(120);
-}
-
-@mixin subheader {
-  @include normal;
-  font-family: $sans-serif;
-  font-size: em(18);
+body, h1, h2, h3, h4 {
   font-weight: 400;
-  line-height: 1.2;
-  text-transform: uppercase;
-  color: $cream-dark;
 }
 
 body {
-  @include normal;
-  padding: em(30);
+  @include adjust-font-size-to($base-font-size);
   font-family: $slab-serif;
-  font-weight: 400;
   background-color: $cream;
   color: $gray;
 }
 
-h3 {
-  @include subheader;
-  margin: em(8) 0;
-}
-
-.site-title {
-  @include massive;
-  margin: em(2) 0;
+h1, .site-title {
+  @include adjust-font-size-to(62px);
+  margin: 0;
   font-style: italic;
-  font-weight: 400;
   color: $blue;
 }
 
-.page-title {
-  @include large;
-  margin: em(6) 0;
-  font-weight: 400;
+h2, .page-title {
+  @include adjust-font-size-to(34px);
+  margin: rhythm(0.5, 34px) 0;
+}
+
+h3 {
+  @include adjust-font-size-to(24px);
+  margin: 0 0 rhythm(0.5, 24px);
+}
+
+h4 {
+  @include adjust-font-size-to(18px);
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  color: $cream-dark;
+  margin: 0 0 rhythm(0.5, 18px);
 }
 
 .page-subtitle {
-  margin: 0 0 em(28);
+  margin: 0 0 rhythm(1.5, 18px); 
+}
+
+p {
+  @include adjust-font-size-to(20px, 1.4);
+  margin: 0 0 rhythm(1, 20px);
 }
 
 a {
-  @include transition(color 0.15s ease-in-out);
+  @include transition(color 0.2s ease-in-out);
   color: $blue;
   text-decoration: none;
 
   &:hover {
-    //opacity: 0.8;
     color: shade($blue, 20%);
   }
-}
-
-.content {
-  @include body-text;
-}
-
-p {
-  margin: em(6) 0 em(16);
 }

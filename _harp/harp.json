@@ -4,48 +4,6 @@
     "tagline"  : "Computer Science at Georgia Tech, bound for New York",
     "uri": "http://example.com",
     "links": {
-      "portfolio": [
-        {
-          "title": "native.fm",
-          "url": "/native-fm"
-        },
-        {
-          "title": "WREKtranet",
-          "url": "/wrektranet"
-        },
-        {
-          "title": "SingleOps",
-          "url": "/singleops"
-        },
-        {
-          "title": "WREK.org",
-          "url": "/wrek"
-        },
-        {
-          "title": "Kate Godwin",
-          "url": "/kate-godwin"
-        },
-        {
-          "title": "Drew Pak",
-          "url": "/drew-pak"
-        },
-        {
-          "title": "Yahoo! Sports",
-          "url": "/yahoo-sports"
-        },
-        {
-          "title": "Plantr",
-          "url": "/plantr"
-        },
-        {
-          "title": "Abundant World",
-          "url": "/abundant-world"
-        },
-        {
-          "title": "Ampersand",
-          "url": "/ampersand"
-        }
-      ],
       "friends": [
         {
           "title": "Kate Godwin",
@@ -62,24 +20,6 @@
         {
           "title": "WREK",
           "url": "http://wrek.org"
-        }
-      ],
-      "experiments": [
-        {
-          "title": "Web Audio Synth",
-          "url": "/web-audio-synth"
-        },
-        {
-          "title": "Park Find",
-          "url": "/park-find"
-        },
-        {
-          "title": "Bandcamp",
-          "url": "http://stoica.bandcamp.com"
-        },
-        {
-          "title": "SoundCloud",
-          "url": "http://soundcloud.com/andthestoics"
         }
       ],
       "social": [

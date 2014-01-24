@@ -1,9 +1,9 @@
 .nav-section
   h4.nav-header Portfolio
   ul
-    - each link in links.portfolio
+    - for link, slug in public.portfolio._data
       li
-        a(href=link.url)= link.title
+        a(href="/portfolio/#{slug}")= link.title
 
   h4.nav-header Friends
   ul
@@ -13,9 +13,13 @@
 .nav-section
   h4.nav-header Experiments
   ul
-    - each link in links.experiments
+    - for link, slug in public.experiments._data
       li
-        a(href=link.url)= link.title
+        a(href="/experiments/#{slug}")= link.title
+    li
+      a(href="http://stoica.bandcamp.com") Bandcamp
+    li
+      a(href="http://soundcloud.com/andthestoics") SoundCloud
   h4.nav-header Social
   ul
     - each link in links.social

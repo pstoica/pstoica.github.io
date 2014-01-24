@@ -2,6 +2,19 @@ $base-font-size: 16px;
 $base-line-height: 24px;
 @include establish-baseline;
 
+/* selection */
+@mixin selection {
+    ::-moz-selection { @content; }
+    ::selection { @content; }
+}
+
+@include selection {
+    color: white;
+    background: rgba($blue, 0.8);
+}
+
+/* type */
+
 body, h1, h2, h3, h4 {
   font-weight: 400;
 }
@@ -21,8 +34,13 @@ h1, .site-title {
 }
 
 h2, .page-title {
-  @include adjust-font-size-to(34px);
-  margin: rhythm(0.5, 34px) 0;
+  @include adjust-font-size-to(24px, 1.5);
+  margin: rhythm(0.5, 24px) 0;
+
+  @include media($breakpoint-medium) {
+    @include adjust-font-size-to(34px);
+    margin: rhythm(0.5, 34px) 0;
+  }
 }
 
 h3 {
@@ -32,14 +50,20 @@ h3 {
 
 h4 {
   @include adjust-font-size-to(18px);
+  margin: 0 0 rhythm(0.5, 18px);
+
   font-family: $sans-serif;
   text-transform: uppercase;
   color: $cream-dark;
-  margin: 0 0 rhythm(0.5, 18px);
 }
 
 .page-subtitle {
-  margin: 0 0 rhythm(1.5, 18px); 
+  @include adjust-font-size-to(14px);
+
+  @include media($breakpoint-medium) {
+    @include adjust-font-size-to(18px);
+    margin: 0 0 rhythm(1.5, 18px);
+  }
 }
 
 p {
@@ -48,11 +72,11 @@ p {
 }
 
 a {
-  @include transition(color 0.2s ease-in-out);
-  color: $blue;
+  @include transition(color 0.2s ease-in);
+  color: shade($blue, 5%);
   text-decoration: none;
 
   &:hover {
-    color: shade($blue, 20%);
+    color: shade($blue, 40%);
   }
 }

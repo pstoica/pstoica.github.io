@@ -6,7 +6,7 @@ $gray: #5A564E;
 $slab-serif: 'adelle', Georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $sans-serif: 'adelle-sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$column: 60px;
-$gutter: 20px;
+$column: em(60);
+$gutter: em(20);
 $grid-columns: 12;
 $max-width: 60em;

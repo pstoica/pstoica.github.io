@@ -1,19 +1,15 @@
 @import 'bourbon/bourbon';
 @import 'components/harp-compass/scss/compass';
+@import 'neat/neat';
 @import 'variables';
 @import 'normalize';
+
+/* media query breakpoints */
+$breakpoint-medium: new-breakpoint(min-width 42em 12);
+$breakpoint-large: new-breakpoint(min-width 55em 12);
+
 @import 'type';
-@import 'neat/neat';
 
-@mixin selection {
-    ::-moz-selection { @content; }
-    ::selection { @content; }
-}
-
-@include selection {
-    color: white;
-    background: rgba($blue, 0.8);
-}
 
 /* fluid media */
 figure {
@@ -41,11 +37,39 @@ body {
 }
 
 .content {
-  @include span-columns(6);
+  @include span-columns(12);
+
+  @include media($breakpoint-medium) {
+    @include span-columns(8);
+  }
+
+  @include media($breakpoint-large) {
+    @include span-columns(7);
+  }
+}
+
+.nav {
+  @include span-columns(12);
+
+  @include media($breakpoint-medium) {
+    @include span-columns(3);
+  }
+
+  @include media($breakpoint-large) {
+    @include span-columns(4);
+  }
 }
 
 .nav-section {
-  @include span-columns(3);
+  @include span-columns(6);
+
+  @include media($breakpoint-medium) {
+    @include span-columns(3 of 3);
+  }
+
+  @include media($breakpoint-large) {
+    @include span-columns(2 of 4);
+  }
 
   ul {
     margin: 0 0 rhythm(1, 16px);

@@ -85,11 +85,12 @@ h4 {
 }
 
 p {
-  @include adjust-font-size-to(20px, 1.4);
+  @include adjust-font-size-to(18px, 1.4);
   margin: 0 0 rhythm(1, 20px);
   text-align: justify;
 
   @include media($breakpoint-medium) {
+    @include adjust-font-size-to(20px, 1.4);
     text-align: left;
   }
 }

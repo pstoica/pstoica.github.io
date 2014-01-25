@@ -17,7 +17,7 @@ I collaborated with front-end, back-end, design, and editorial teams and helped 
     </figcaption>
 </figure>
 
-I learned to use Yahoo!'s PHP web framework along with their open source JavaScript library, [YUI](http://yuilibrary.com/). I also submitted a few of patches for other Yahoo! products.
+I learned to use Yahoo!'s PHP web framework along with their open source JavaScript library, [YUI](http://yuilibrary.com/). I also submitted a few patches for other Yahoo! products.
 
 As of Yahoo!'s recent redesigns, this site is no longer available.
 

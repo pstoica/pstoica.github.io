@@ -8,7 +8,7 @@ During my summer 2012 internship in Santa Monica, I joined the Yahoo! Sports fro
 
 I collaborated with front-end, back-end, design, and editorial teams and helped with features, stylesheet optimizations, multi-device support, and internationalization. The site received several sponsorships and large amounts of traffic worldwide. One module I created was reused for other sponsorships after I left.
 
-<figure class="media-image-right media-image-medium">
+<figure class="media-reverse media-image-medium">
     <a class="media-image" href="/images/yahoo-sports/2.png">
        <img src="/images/yahoo-sports/2.png" alt="Flyout widget for viewing calendar details." />
     </a>

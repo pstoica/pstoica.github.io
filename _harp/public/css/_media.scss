@@ -43,7 +43,7 @@ figcaption {
       @include span-columns(4); 
     }
 
-    &.media-image-right {
+    &.media-reverse {
       figcaption {
         @include shift(-12);
 

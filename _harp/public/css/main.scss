@@ -41,7 +41,7 @@ body {
   @include row;
 
   @include media($breakpoint-medium) {
-    @include span-columns(11);
+    @include span-columns(12);
   }
 
   @include media($breakpoint-large) {

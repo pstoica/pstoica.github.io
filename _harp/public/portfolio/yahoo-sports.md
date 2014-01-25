@@ -2,7 +2,7 @@ During my summer 2012 internship in Santa Monica, I joined the Yahoo! Sports fro
 
 <figure>
     <a class="media-image" href="/images/yahoo-sports/1.png">
-	   <img src="/images/yahoo-sports/1.png" alt="Main London Olympics page" />
+       <img src="/images/yahoo-sports/1.png" alt="Main London Olympics page" />
     </a>
 </figure>
 
@@ -10,10 +10,10 @@ I collaborated with front-end, back-end, design, and editorial teams and helped 
 
 <figure class="media-image-right media-image-medium">
     <a class="media-image" href="/images/yahoo-sports/2.png">
-	   <img src="/images/yahoo-sports/2.png" alt="Flyout widget for viewing calendar details." />
+       <img src="/images/yahoo-sports/2.png" alt="Flyout widget for viewing calendar details." />
     </a>
     <figcaption>
-        YUI Flyout widget designed for quickly viewing event details.
+        Flyout widget designed for quickly viewing event details, made with [YUI](http://yuilibrary.com/).
     </figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ As of Yahoo!'s recent redesigns, this site is no longer available.
 
 <figure class="media-image-medium">
     <a class="media-image" href="/images/yahoo-sports/3.png">
-	   <img src="/images/yahoo-sports/3.png" alt="Various styles and modules I've worked on." />
+       <img src="/images/yahoo-sports/3.png" alt="Various styles and modules I've worked on." />
     </a>
     <figcaption>Various styles and modules I've worked on.</figcaption>
 </figure>

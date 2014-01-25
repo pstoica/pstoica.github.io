@@ -2,7 +2,7 @@
   h4.nav-header Portfolio
   ul
     - for link, slug in public.portfolio._data
-      li
+      li(class="#{ current.source == slug ? 'active' : '' }")
         a(href="/portfolio/#{slug}")= link.title
 
   h4.nav-header Friends

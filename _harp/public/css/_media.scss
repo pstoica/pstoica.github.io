@@ -1,0 +1,62 @@
+figure {
+  @include row;
+}
+
+figure {
+  img, figcaption {
+    margin: 0 0 rhythm(1, 20px);
+  }
+}
+
+figcaption {
+  font-style: italic;
+  color: $cream-dark;
+}
+
+.project-teaser {
+  @include media($breakpoint-large) {
+    margin: 0 0 rhythm(1, 24px);
+  }
+
+  figcaption {
+    @include adjust-font-size-to(18px, 1.5);
+  }
+}
+
+@include media($breakpoint-medium) {
+  .media-image-small {
+    .media-image {
+      @include span-columns(6);
+    }
+
+    figcaption {
+      @include span-columns(6); 
+    }
+  }
+
+  .media-image-medium {
+    .media-image {
+      @include span-columns(8);
+    }
+
+    figcaption {
+      @include span-columns(4); 
+    }
+
+    &.media-image-right {
+      figcaption {
+        @include shift(-12);
+
+        text-align: right;
+      }
+
+      .media-image {
+        @include shift(4);
+      }
+    }
+  }
+
+  .media-image-left {
+
+  }
+}

@@ -9,6 +9,7 @@ $breakpoint-medium: new-breakpoint(min-width 42em 12);
 $breakpoint-large: new-breakpoint(min-width 55em 12);
 
 @import 'type';
+@import 'media';
 
 
 /* fluid media */
@@ -70,6 +71,13 @@ body {
   @include media($breakpoint-large) {
     @include span-columns(4);
   }
+
+  .active a {
+    text-decoration: underline;
+    //border-bottom: 1px solid $cream-dark;
+    //padding-left: 5px;
+    //margin-left: -6px;
+  }
 }
 
 .nav-section {
@@ -87,5 +95,35 @@ body {
     margin: 0 0 rhythm(1, 16px);
     padding: 0;
     list-style-type: none;
+  }
+}
+
+.project-teaser {
+  @include row;
+
+  img {
+    @include span-columns(12);
+
+    @include media($breakpoint-medium) {
+      @include span-columns(3 of 7);
+    }
+
+    @include media($breakpoint-large) {
+      @include span-columns(4 of 8);
+    }
+  }
+
+  figcaption {
+    @include span-columns(12);
+
+    @include media($breakpoint-medium) {
+      @include adjust-font-size-to(20px, 1.5);
+      @include span-columns(4 of 7);
+    }
+
+    @include media($breakpoint-large) {
+      @include adjust-font-size-to(24px, 1.5);
+      @include span-columns(4 of 8);
+    }
   }
 }

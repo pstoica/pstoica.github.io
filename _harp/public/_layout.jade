@@ -31,12 +31,11 @@ html(lang='en')
           h4.page-subtitle Computer Science at Georgia Tech, bound for New York
       .content
         block content
+          if current.path[0] == 'portfolio'
+            figure.project-teaser
+              img(src="/images/#{current.source}/teaser.png")
+              figcaption= teaser
           != yield
-          if current.path.length > 1
-            p Irony voluptate hella, Terry Richardson assumenda fugiat bicycle rights keffiyeh Banksy bitters. Butcher brunch consequat dolor fixie farm-to-table. Aesthetic pug chambray fixie nesciunt. Et slow-carb fap, exercitation ugh adipisicing paleo commodo qui Neutra aliquip hashtag street art duis. Culpa food truck seitan salvia stumptown, American Apparel labore typewriter keytar incididunt. Four loko roof party post-ironic chillwave ennui. Intelligentsia meggings chillwave anim ea you probably haven't heard of them street art qui.
-            p Bitters disrupt fixie art party officia. Sed hashtag messenger bag, velit et hoodie bitters nulla flannel farm-to-table Vice deep v bespoke minim. IPhone Intelligentsia ennui, pork belly magna Williamsburg Schlitz chambray. Swag butcher kogi raw denim hashtag nisi. Tempor +1 pug cardigan. Odio adipisicing aesthetic consectetur biodiesel Terry Richardson. Echo Park id Tumblr, Austin gluten-free viral hoodie cliche stumptown meggings reprehenderit.
-            p Aesthetic McSweeney's non church-key sriracha et, id nihil. Sint deserunt labore, placeat XOXO Marfa Cosby sweater consectetur you probably haven't heard of them banh mi master cleanse actually. Hella Portland cupidatat dolor, readymade VHS bespoke non ut chillwave jean shorts squid fashion axe Pinterest 90's. YOLO lo-fi flexitarian fixie umami consectetur. Umami typewriter hella authentic wayfarers readymade Tumblr DIY reprehenderit sartorial nostrud pork belly. Ex raw denim narwhal DIY dolor. Selvage cupidatat 8-bit, whatever Blue Bottle placeat Vice Marfa High Life locavore PBR.
-            p Chia dolore laborum, ennui tote bag pariatur pork belly nesciunt labore artisan pickled photo booth craft beer shabby chic. Godard vero magna brunch cillum, duis sunt Shoreditch. Aesthetic nulla locavore food truck, retro pour-over ad biodiesel Truffaut. Nulla vegan art party forage, plaid roof party stumptown cliche whatever dolor mustache. Mlkshk excepteur twee, Portland cupidatat dolore single-origin coffee deserunt cliche mustache. Fanny pack incididunt trust fund irony, viral fingerstache nostrud sapiente Helvetica polaroid keytar jean shorts. Kitsch master cleanse skateboard mixtape, adipisicing hashtag pug 8-bit cliche.
       nav.nav
         != partial("_nav")
     script(type='text/javascript', src='//use.typekit.net/iul4pro.js')

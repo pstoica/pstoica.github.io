@@ -36,6 +36,19 @@
     "teaser": "Plantr is a sensor and mobile app kit for home and community gardening.",
     "project_github": "https://github.com/fozzle/plantr"
   },
+  "web-audio-synth": {
+    "title": "Web Audio Synth",
+    "description": "Synthesis exploration in HTML5",
+    "project_url": "http://pstoica.github.io/web-audio-synth/"
+  },
+  "park-find": {
+    "title": "Park Find",
+    "description": "Atlanta park discovery app",
+    "teaser": "Atlanta has over 350 parks. More than likely, there's a park next door that you don't know about.",
+    "teaser_format": "jpg",
+    "project_url": "http://atlparks.herokuapp.com",
+    "project_github": "https://github.com/fozzle/atl-parks"
+  },
   "abundant-world": {
     "title": "Abundant World",
     "description": "Connecting nonprofits in need",

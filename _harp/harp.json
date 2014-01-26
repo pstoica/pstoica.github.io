@@ -24,12 +24,24 @@
       ],
       "social": [
         {
+          "title": "Email",
+          "url": "mailto:pstoica@gatech.edu"
+        },
+        {
           "title": "GitHub",
           "url": "http://github.com/pstoica"
         },
         {
-          "title": "LinkedIn",
-          "url": "http://www.linkedin.com/in/pstoica"
+          "title": "Bandcamp",
+          "url": "http://stoica.bandcamp.com"
+        },
+        {
+          "title": "SoundCloud",
+          "url": "http://soundcloud.com/andthestoics"
+        },
+        {
+          "title": "Last.FM",
+          "url": "http://last.fm/bigolblob"
         },
         {
           "title": "Twitter",
@@ -40,12 +52,8 @@
           "url": "http://facebook.com/stoica"
         },
         {
-          "title": "Last.FM",
-          "url": "http://last.fm/bigolblob"
-        },
-        {
-          "title": "Email",
-          "url": "mailto:pstoica@gatech.edu"
+          "title": "LinkedIn",
+          "url": "http://www.linkedin.com/in/pstoica"
         }
       ]
     }

@@ -2,6 +2,7 @@
   "globals": {
     "name": "Patrick Stoica",
     "uri": "http://example.com",
+    "teaser_format": "png",
     "links": {
       "friends": [
         {

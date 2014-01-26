@@ -46,7 +46,7 @@ html(lang='en')
         block content
           if !!teaser
             figure.project-teaser
-              img(src="/images/#{current.source}/teaser.png")
+              img(src="/images/#{current.source}/teaser.#{teaser_format}")
               figcaption= teaser
           != yield
       nav.nav

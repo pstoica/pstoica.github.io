@@ -39,7 +39,9 @@
   "web-audio-synth": {
     "title": "Web Audio Synth",
     "description": "Synthesis exploration in HTML5",
-    "project_url": "http://pstoica.github.io/web-audio-synth/"
+    "teaser": "A synthesizer made with the HTML5 web audio API, loosely based on the Commodore 64's sound interface.",
+    "project_url": "http://pstoica.github.io/web-audio-synth/",
+    "project_github": "http://github.com/pstoica/web-audio-synth"
   },
   "park-find": {
     "title": "Park Find",

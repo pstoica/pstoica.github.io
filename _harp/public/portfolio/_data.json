@@ -9,12 +9,6 @@
     "description": "Radio station intranet 2.0",
     "project_github": "https://github.com/wrekatlanta/wrektranet-new"
   },
-  "wrek": {
-    "title": "WREK.org",
-    "description": "Radio station redesign",
-    "teaser": "A redesigned web presence for Georgia Tech's 100,000 watt student-run radio station, WREK 91.1 FM.",
-    "project_url": "http://wrek.org"
-  },
   "kate-godwin": {
     "title": "Kate Godwin",
     "description": "Designer of things and their screens",
@@ -24,6 +18,12 @@
     "title": "Drew Pak",
     "description": "Personal portfolio",
     "project_url": "http://drewpak.com"
+  },
+  "wrek": {
+    "title": "WREK.org",
+    "description": "Radio station redesign",
+    "teaser": "A redesigned web presence for Georgia Tech's 100,000 watt student-run radio station, WREK 91.1 FM.",
+    "project_url": "http://wrek.org"
   },
   "yahoo-sports": {
     "title": "Yahoo! Sports",

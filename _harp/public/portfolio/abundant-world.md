@@ -11,6 +11,6 @@ We built the application using Ruby on Rails using Twitter Bootstrap with severa
 <figure>
     <a class="media-image" href="/images/abundant-world/2.png">
        <img src="/images/abundant-world/2.png" alt="Administration page for approved nonprofits to look through food listings." />
-       <figcaption>Administration page for approved nonprofits to look through food listings.</figcaption>
+       <figcaption>Approved nonprofits can look through and filter food listings.</figcaption>
     </a>
 </figure>

@@ -1,7 +1,8 @@
 {
   "native-fm": {
     "title": "native.fm",
-    "description": "discover + share local music with music lovers from around the world"
+    "description": "discover + share local music",
+    "teaser": "Powered by Bandcamp and SoundCloud, native.fm lets music lovers swap songs around the world."
   },
   "wrektranet": {
     "title": "WREKtranet",

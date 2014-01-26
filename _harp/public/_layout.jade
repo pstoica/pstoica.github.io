@@ -34,7 +34,7 @@ html(lang='en')
           if current.path[0] == 'portfolio'
             figure.project-teaser
               img(src="/images/#{current.source}/teaser.png")
-              figcaption= teaser
+              figcaption!= teaser
           != yield
       nav.nav
         != partial("_nav")

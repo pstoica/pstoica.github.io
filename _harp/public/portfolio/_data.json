@@ -6,21 +6,24 @@
   },
   "wrektranet": {
     "title": "WREKtranet",
-    "description": "Radio station intranet 2.0"
+    "description": "Radio station intranet 2.0",
+    "github": "https://github.com/wrekatlanta/wrektranet-new"
   },
   "wrek": {
     "title": "WREK.org",
     "description": "Radio station redesign",
-    "teaser": "A redesigned web presence for Georgia Tech's 100,000 watt student-run radio station, WREK 91.1 FM."
+    "teaser": "A redesigned web presence for Georgia Tech's 100,000 watt student-run radio station, WREK 91.1 FM.",
+    "url": "http://wrek.org"
   },
   "kate-godwin": {
     "title": "Kate Godwin",
     "description": "Designer of things and their screens",
-    "teaser": "Portfolio redesign and blog touchups, in progress."
+    "url": "http://make.kategodwin.com"
   },
   "drew-pak": {
     "title": "Drew Pak",
-    "description": "Personal portfolio"
+    "description": "Personal portfolio",
+    "url": "http://drewpak.com"
   },
   "yahoo-sports": {
     "title": "Yahoo! Sports",
@@ -37,7 +40,6 @@
   },
   "ampersand": {
     "title": "Ampersand",
-    "description": "Local art community",
-    "teaser": "A now-defunct online art community for Atlanta, from high school days."
+    "description": "Local art community"
   }
 }

@@ -8,7 +8,7 @@ native.fm started as a weekend-long hack at [PennApps 2013](http://2013f.pennapp
 
 We formed the idea out of frustration with current approaches to social music. Streaming services determine relevant artists from global listening data, homogenizing exploration and making it hard to branch out.
 
-There are also hundreds of thousands of independent artists that are difficult to discover without a helping hand. We figured the best tastemakers are the local music fans.
+There are also thousands of independent artists that are difficult to discover without a helping hand. We figured the best tastemakers are the local music fans.
 
 <figure>
     <a class="media-image" href="/images/native-fm/2.png">

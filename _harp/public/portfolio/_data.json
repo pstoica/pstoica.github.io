@@ -32,7 +32,9 @@
   },
   "plantr": {
     "title": "Plantr",
-    "description": "Community garden monitoring on-the-go"
+    "description": "Community garden monitoring on-the-go",
+    "teaser": "Plantr is a sensor and mobile app kit for home and community gardening.",
+    "project_github": "https://github.com/fozzle/plantr"
   },
   "abundant-world": {
     "title": "Abundant World",

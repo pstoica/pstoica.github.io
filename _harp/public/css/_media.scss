@@ -8,7 +8,8 @@ figure {
   }
 }
 
-figcaption {
+figcaption, figcaption p {
+  @include adjust-font-size-to(16px);
   font-style: italic;
   color: $cream-dark;
 }

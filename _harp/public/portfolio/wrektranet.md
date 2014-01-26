@@ -7,7 +7,7 @@ For my senior design course, I worked with [Kyle Petrovich](http://kpetrovi.ch) 
        <img src="/images/wrektranet/1.png" alt="WREK's contest book." />
     </a>
     <figcaption>
-    	A list of concert tickets to be given out as contests to listeners.
+        A list of concert tickets to be given out as contests to listeners.
     </figcaption>
 </figure>
 
@@ -18,7 +18,7 @@ The new platform also includes [AngularJS](http://angularjs.org) as a client-sid
        <img src="/images/wrektranet/2.png" alt="Front page" />
     </a>
     <figcaption>
-    	A simple and quick contest signup page for staff to use to receive show tickets.
+        A simple and quick contest signup page for staff to use to receive show tickets.
     </figcaption>
 </figure>
 
@@ -29,6 +29,6 @@ The site was organized into three primary functions to address the lack of organ
        <img src="/images/wrektranet/3.png" alt="Front page" />
     </a>
     <figcaption>
-    	A sample contest page designed for on-air readability.
+        A sample contest page designed for on-air readability.
     </figcaption>
 </figure>

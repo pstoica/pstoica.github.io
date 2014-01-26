@@ -8,17 +8,14 @@
     "title": "WREKtranet",
     "description": "Radio station intranet 2.0"
   },
-  "singleops": {
-    "title": "SingleOps",
-    "description": "Operations automation for on-site services"
-  },
   "wrek": {
     "title": "WREK.org",
     "description": "Radio station redesign"
   },
   "kate-godwin": {
     "title": "Kate Godwin",
-    "description": "Personal portfolio + blog"
+    "description": "Designer of things and their screens",
+    "teaser": "Portfolio redesign and blog touchups, in progress."
   },
   "drew-pak": {
     "title": "Drew Pak",

@@ -15,7 +15,7 @@ $base-line-height: 24px;
 
 /* links */
 a {
-  @include transition(color 0.2s ease-in);
+  @include transition(all 0.2s ease-in);
   color: shade($blue, 5%);
   text-decoration: none;
 }

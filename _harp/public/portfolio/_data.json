@@ -7,23 +7,23 @@
   "wrektranet": {
     "title": "WREKtranet",
     "description": "Radio station intranet 2.0",
-    "github": "https://github.com/wrekatlanta/wrektranet-new"
+    "project_github": "https://github.com/wrekatlanta/wrektranet-new"
   },
   "wrek": {
     "title": "WREK.org",
     "description": "Radio station redesign",
     "teaser": "A redesigned web presence for Georgia Tech's 100,000 watt student-run radio station, WREK 91.1 FM.",
-    "url": "http://wrek.org"
+    "project_url": "http://wrek.org"
   },
   "kate-godwin": {
     "title": "Kate Godwin",
     "description": "Designer of things and their screens",
-    "url": "http://make.kategodwin.com"
+    "project_url": "http://make.kategodwin.com"
   },
   "drew-pak": {
     "title": "Drew Pak",
     "description": "Personal portfolio",
-    "url": "http://drewpak.com"
+    "project_url": "http://drewpak.com"
   },
   "yahoo-sports": {
     "title": "Yahoo! Sports",
@@ -37,8 +37,8 @@
   "abundant-world": {
     "title": "Abundant World",
     "description": "Connecting nonprofits in need",
-    "url": "http://abundantworld.org",
-    "github": "http://github.com/Karimu/karimu"
+    "project_url": "http://abundantworld.org",
+    "project_github": "http://github.com/Karimu/karimu"
   },
   "ampersand": {
     "title": "Ampersand",

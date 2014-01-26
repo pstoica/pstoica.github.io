@@ -15,20 +15,33 @@ html(lang='en')
     meta(name="author", content=author)
     meta(name="viewport", content='width=device-width, initial-scale=1')
     link(rel="stylesheet", href="/css/main.css")
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
   body
     .container
       header.site-header
         h1.site-title
           a(href="/")= name
-        if current.path.length > 1
-          h2.page-title= title
-          h4.page-subtitle= description
-        else
-          h2.page-title
-            | Web developer, ambient musician,
-            br
-            | master of the cheap pun.
-          h4.page-subtitle Computer Science at Georgia Tech, bound for New York
+        .site-subheader
+          if current.path.length > 1
+            h2.page-title= title
+            h4.page-subtitle= description
+          else
+            h2.page-title
+              | Web developer, ambient musician,
+              br
+              | master of the cheap pun.
+            h4.page-subtitle Computer Science at Georgia Tech, bound for New York
+          if project_github || project_url
+            .project-links
+              if project_github
+                a.button(href="#{project_github}")
+                  i.fa.fa-github
+                  |  GitHub
+              | 
+              if project_url
+                a.button(href="#{project_url}")
+                  i.fa.fa-laptop
+                  |  View project
       .content
         block content
           if !!teaser

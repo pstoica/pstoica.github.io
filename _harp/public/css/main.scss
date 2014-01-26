@@ -41,7 +41,7 @@ body {
   @include row;
 
   @include media($breakpoint-medium) {
-    @include span-columns(12);
+    @include span-columns(8);
   }
 
   @include media($breakpoint-large) {
@@ -125,5 +125,31 @@ body {
       @include adjust-font-size-to(24px, 1.5);
       @include span-columns(4 of 8);
     }
+  }
+}
+
+.site-subheader {
+  position: relative;
+}
+
+.project-links {
+  position: absolute;
+  margin-top: rhythm(0.5, 12px);
+  top: 0;
+  right: 0;
+}
+
+.button {
+  @include adjust-font-size-to(12px);
+  border-radius: 2px;
+  box-shadow: 0 2px shade($blue, 10%);
+  padding: 0.8em 0.5em;
+  background-color: $blue;
+  color: $cream;
+  font-family: $sans-serif;
+
+  &:hover {
+    background-color: shade($blue, 5%);
+    color: $cream;
   }
 }

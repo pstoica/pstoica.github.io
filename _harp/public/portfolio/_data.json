@@ -36,7 +36,9 @@
   },
   "abundant-world": {
     "title": "Abundant World",
-    "description": "Connecting nonprofits in need"
+    "description": "Connecting nonprofits in need",
+    "url": "http://abundantworld.org",
+    "github": "http://github.com/Karimu/karimu"
   },
   "ampersand": {
     "title": "Ampersand",

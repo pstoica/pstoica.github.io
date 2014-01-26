@@ -1,6 +1,8 @@
 {
   "globals": {
     "name": "Patrick Stoica",
+    "author": "Patrick Stoica",
+    "description": "Web developer, ambient musician, master of the cheap pun.",
     "uri": "http://example.com",
     "teaser_format": "png",
     "links": {
@@ -16,6 +18,10 @@
         {
           "title": "Drew Pak",
           "url": "http://drewpak.com"
+        },
+        {
+          "title": "Warehouse",
+          "url": "https://www.facebook.com/warehouseatl"
         },
         {
           "title": "WREK",
@@ -44,7 +50,7 @@
           "url": "http://last.fm/bigolblob"
         },
         {
-          "title": "Twitter",
+          "title": "@thisispatark",
           "url": "http://twitter.com/thisispatark"
         },
         {

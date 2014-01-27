@@ -6,7 +6,7 @@ I helped create an application for a client through Georgia Tech's Technical Com
     </a>
 </figure>
 
-We built the application using Ruby on Rails using Twitter Bootstrap with several brand and logo customizations. An admin interface was created to allow the client to manage the site.
+We built the application using Ruby on Rails and Twitter Bootstrap with several brand and logo customizations. An admin interface was created to allow the client to manage the site.
 
 <figure>
     <a class="media-image" href="/images/abundant-world/2.png">

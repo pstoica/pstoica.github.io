@@ -49,6 +49,10 @@ body {
   }
 }
 
+.home .site-header {
+  @include span-columns(12);
+}
+
 .content {
   @include row;
 
@@ -133,17 +137,21 @@ body {
 }
 
 .project-links {
-  position: absolute;
-  margin-top: rhythm(0.5, 12px);
-  top: 0;
-  right: 0;
+  margin: rhythm(0.3, 12px) 0;
+
+  @include media($breakpoint-medium) {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 .button {
   @include adjust-font-size-to(12px);
   border-radius: 2px;
   box-shadow: 0 2px shade($blue, 10%);
-  padding: 0.8em 0.5em;
+  padding: 0.5em;
   background-color: $blue;
   color: $cream;
   font-family: $sans-serif;

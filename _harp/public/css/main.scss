@@ -50,7 +50,9 @@ body {
 }
 
 .home .site-header {
-  @include span-columns(12);
+  @include media($breakpoint-medium) {
+    @include span-columns(12);
+  }
 }
 
 .content {

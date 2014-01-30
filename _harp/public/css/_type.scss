@@ -101,3 +101,9 @@ p {
   @include adjust-font-size-to(24px, 2);
   margin: 0 0 rhythm(1, 30px);
 }
+
+@include media($breakpoint-mobile) {
+  .hide-mobile {
+    display: none;
+  }
+}

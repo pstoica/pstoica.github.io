@@ -5,6 +5,7 @@
 @import 'normalize';
 
 /* media query breakpoints */
+$breakpoint-mobile: new-breakpoint(max-width 41.9em 12);
 $breakpoint-medium: new-breakpoint(min-width 42em 12);
 $breakpoint-large: new-breakpoint(min-width 55em 12);
 

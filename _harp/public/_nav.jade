@@ -1,0 +1,18 @@
+.nav-section
+  h4.nav-header Portfolio
+  ul
+    - for link, slug in public.portfolio._data
+      li(class="#{ current.source == slug ? 'active' : '' }")
+        a(href="/portfolio/#{slug}")= link.title
+
+.nav-section
+  h4.nav-header Friends
+  ul
+    - each link in links.friends
+      li
+        a(href=link.url)= link.title
+  h4.nav-header More Pat
+  ul
+    - each link in links.social
+      li
+        a(href=link.url)= link.title

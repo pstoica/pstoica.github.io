@@ -1,0 +1,66 @@
+doctype html
+//if lt IE 9
+  html.ie(lang='en') 
+//[if gte IE 9]><!
+html(lang='en')
+  //<![end if]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    if current.path.length == 1
+      title= name
+    else
+      title #{title} | Patrick Stoica
+    meta(name="description", content=description)
+    meta(name="author", content=author)
+    meta(name="viewport", content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="/css/main.css")
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+  body(class=current.path.length == 1 ? 'home' : '')
+    .container
+      header.site-header
+        h1.site-title
+          a(href="/")= name
+        .site-subheader
+          if current.path.length > 1
+            h2.page-title= title
+            h4.page-subtitle= description
+          else
+            h2.page-title
+              | Web developer, ambient musician, 
+              br.hide-mobile
+              | master of the cheap pun.
+            h4.page-subtitle Computer Science at Georgia Tech, bound for New York
+          if project_github || project_url
+            .project-links
+              if project_github
+                a.button(href="#{project_github}")
+                  i.fa.fa-github
+                  |  GitHub
+              | 
+              if project_url
+                a.button(href="#{project_url}")
+                  i.fa.fa-laptop
+                  |  View project
+      .content
+        block content
+          if !!teaser
+            figure.project-teaser
+              img(src="/images/#{current.source}/teaser.#{teaser_format}")
+              figcaption= teaser
+          != yield
+      nav.nav
+        != partial("_nav")
+    script(type='text/javascript', src='//use.typekit.net/iul4pro.js')
+    script(type='text/javascript').
+        try{Typekit.load();}catch(e){}
+    script(type='text/javascript').
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26511242-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

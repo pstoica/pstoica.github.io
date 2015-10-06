@@ -1,4 +1,4 @@
-Kate Godwin is a grad student in the [Interactive Telecommunications Program at NYU](http://itp.nyu.edu/itp/) who previously studied Industrial Design at Georgia Tech. We've also been dating for a while now.
+Kate Godwin graduated from [Interactive Telecommunications Program at NYU](http://itp.nyu.edu/itp/) and previously studied Industrial Design at Georgia Tech.
 
 <figure>
     <a class="media-image" href="/images/kate-godwin/1.png">

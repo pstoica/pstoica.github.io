@@ -4,6 +4,10 @@
     "description": "Discover + share local music",
     "teaser": "Powered by Bandcamp and SoundCloud, native.fm lets music lovers swap songs around the world."
   },
+  "living-room": {
+    "title": "Living Room",
+    "external_url": "http://www.kategodwin.com/#/living-room/"
+  },
   "wrektranet": {
     "title": "WREKtranet",
     "description": "Radio station intranet 2.0",

@@ -2,14 +2,14 @@
   "globals": {
     "name": "Patrick Stoica",
     "author": "Patrick Stoica",
-    "description": "Web developer, ambient musician, master of the cheap pun.",
-    "uri": "http://example.com",
+    "description": "Software developer and ambient musician",
+    "uri": "http://patrickstoica.com",
     "teaser_format": "png",
     "links": {
       "friends": [
         {
           "title": "Kate Godwin",
-          "url": "http://make.kategodwin.com"
+          "url": "http://kategodwin.com"
         },
         {
           "title": "Kyle Petrovich",
@@ -17,11 +17,15 @@
         },
         {
           "title": "Drew Pak",
-          "url": "http://drewpak.com"
+          "url": "https://drewpak.com"
         },
         {
           "title": "Warehouse",
           "url": "https://www.facebook.com/warehouseatl"
+        },
+        {
+          "title": "Mask Magazine",
+          "url": "http://maskmagazine.com"
         },
         {
           "title": "WREK",
@@ -31,7 +35,7 @@
       "social": [
         {
           "title": "Email",
-          "url": "mailto:pstoica@gatech.edu"
+          "url": "mailto:hipatark@gmail.com"
         },
         {
           "title": "Résumé",
@@ -43,23 +47,11 @@
         },
         {
           "title": "Bandcamp",
-          "url": "http://stoica.bandcamp.com"
+          "url": "http://patark.bandcamp.com"
         },
         {
           "title": "SoundCloud",
           "url": "http://soundcloud.com/andthestoics"
-        },
-        {
-          "title": "Last.FM",
-          "url": "http://last.fm/bigolblob"
-        },
-        {
-          "title": "@thisispatark",
-          "url": "http://twitter.com/thisispatark"
-        },
-        {
-          "title": "Facebook",
-          "url": "http://facebook.com/stoica"
         },
         {
           "title": "LinkedIn",

@@ -3,7 +3,7 @@
   ul
     - for link, slug in public.portfolio._data
       li(class="#{ current.source == slug ? 'active' : '' }")
-        a(href="#{ link.external_url || ('/portfolio/' + slug)'")= link.title
+        a(href="#{ link.external_url || ('/portfolio/' + slug)}'")= link.title
 
 .nav-section
   h4.nav-header Friends
